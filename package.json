@@ -1,0 +1,47 @@
+{
+  "name": "mh-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@clerk/clerk-react": "^5.56.0",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.4.0",
+    "chart.js": "^4.5.1",
+    "framer-motion": "^12.23.24",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3",
+    "lucide-react": "^0.554.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-circular-progressbar": "^2.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.30.2",
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.10.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "proxy": "http://127.0.0.1:8000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,10 +1,25 @@
-.venv/
-backend/.venv/
-venv/
-backend/venv/
-__pycache__/
-*.pyc
+# Environment variables
+.env.local
+.env.*.local
 .env
+.env.production
+
+# Dependencies
 node_modules/
-frontend/node_modules/
-backend/node_modules/
+.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+.idea/
+.vscode/
+*.swp
+*.swo
